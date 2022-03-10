@@ -14,7 +14,7 @@ void main()
 	int (*fp)(char*,char*);
 	fp=str_cmp;
 
-	n=fp(str1,str2,n);
+	n=fp(str1,str2);
 	n>0?printf("string is not equal\n"):printf("string is equal\n");
 	
 }
